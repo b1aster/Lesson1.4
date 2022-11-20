@@ -34,7 +34,7 @@ public class Main {
         int seatPlaces = 60;
         int standPlaces = totalPlaces - seatPlaces;
 
-        int passengerCountId = 101;
+        int passengerCountId = 25;
 
         if (passengerCountId <= seatPlaces)
             System.out.println("В вагоне осталось " + (seatPlaces - passengerCountId) + " сидячих и " + standPlaces + " стоячих мест");
@@ -55,5 +55,21 @@ public class Main {
             System.out.println("Поздравляю с совершеннолетием!");
         else
             System.out.println("Возраст совершеннолетия ещё не наступил.");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 5
+        if (passengerCountId <= seatPlaces) {
+            System.out.println("В вагоне осталось " + (seatPlaces - passengerCountId) + " сидячих и " + standPlaces + " стоячих мест");
+        } else {
+
+            if (passengerCountId > seatPlaces && passengerCountId < totalPlaces) {
+                System.out.println("В вагоне осталось 0 сидячих и " + (totalPlaces - passengerCountId) + " стоячих мест");
+            } else {
+                System.out.println("К сожалению мест не осталось");
+            }
+        }
+
     }
 }
