@@ -60,6 +60,21 @@ public class Main {
         System.out.println();
 
         // Задача 5
+        if (studentAge >= 7 && studentAge < 18) {
+            System.out.println("Ребенок ходит в школу");
+        } else {
+
+            if (studentAge >= 18 && studentAge < 24) {
+                System.out.println("Человек уже закончил школу и может отправляться в университет");
+            } else {
+                System.out.println("Человек окончил университет и ему пора искать первую работу");
+            }
+        }
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 6
         if (passengerCountId <= seatPlaces) {
             System.out.println("В вагоне осталось " + (seatPlaces - passengerCountId) + " сидячих и " + standPlaces + " стоячих мест");
         } else {
@@ -70,6 +85,5 @@ public class Main {
                 System.out.println("К сожалению мест не осталось");
             }
         }
-
     }
 }
