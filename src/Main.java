@@ -44,5 +44,16 @@ public class Main {
 
         if (passengerCountId >= totalPlaces)
             System.out.println("К сожалению мест не осталось");
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 4
+        int newAge = 18;
+
+        if (newAge >= 18)
+            System.out.println("Поздравляю с совершеннолетием!");
+        else
+            System.out.println("Возраст совершеннолетия ещё не наступил.");
     }
 }
