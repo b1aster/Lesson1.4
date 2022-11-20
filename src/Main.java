@@ -101,5 +101,26 @@ public class Main {
         } else if (personAge > 24){
             System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить на работу");
         }
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 8
+        int childAge = 15;
+        boolean hasParent = true;
+
+        if (childAge < 5){
+            System.out.println("Нельзя кататься на аттракционе.");
+        } else if (childAge >= 5 && childAge < 14){
+
+            if (hasParent) {
+                System.out.println("Можно кататься на аттракционе (с сопровождением взрослого)");
+            } else {
+                System.out.println("Нельзя кататья на аттракционе (без сопровождения взрослого)");
+            }
+
+        } else {
+            System.out.println("Можно кататься на аттракционе");
+        }
     }
 }
