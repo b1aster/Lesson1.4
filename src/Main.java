@@ -85,5 +85,21 @@ public class Main {
                 System.out.println("К сожалению мест не осталось");
             }
         }
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 7
+        int personAge = 19;
+
+        if (personAge >= 2 && personAge <= 6) {
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в детский сад");
+        } else if (personAge >= 7 && personAge <= 18){
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в школу");
+        } else if (personAge > 18 && personAge < 24){
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить в университет");
+        } else if (personAge > 24){
+            System.out.println("Если возраст человека равен " + personAge + ", то ему нужно ходить на работу");
+        }
     }
 }
