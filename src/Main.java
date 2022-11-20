@@ -122,5 +122,24 @@ public class Main {
         } else {
             System.out.println("Можно кататься на аттракционе");
         }
+
+        // Разделитель
+        System.out.println();
+
+        // Задача 9
+        int one = 7;
+        int two = 8;
+        int free = 9;
+
+        if (one > two && one > free){
+            System.out.println("Число (one) " + one + " больше");
+        } else {
+
+            if (two > one && two > free) {
+                System.out.println("Число (two) " + two + " больше");
+            } else {
+                System.out.println("Число (free) " + free + " больше");
+            }
+        }
     }
 }
